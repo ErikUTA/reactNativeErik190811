@@ -34,7 +34,7 @@ export default function App() {
       />
       <Button 
         title='Enviar'
-        onPress={() => {!!inputName && !!!inputLastName ? setFullName("Ingresa apellidos") : !!inputLastName && !!!inputName ? setFullName("Ingresa tu nombre") : !!!inputName && !!!inputName ? setFullName("Ingresa tus datos") : datos()}}
+        onPress={() => {!!inputName && !!!inputLastName ? setFullName("Ingresa apellidos") : !!inputLastName && !!!inputName ? setFullName("Ingresa tu nombre") : !!!inputName && !!!inputName ? setFullName("Ingresar datos") : datos()}}
       />
     </View>
   );
